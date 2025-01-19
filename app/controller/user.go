@@ -3,8 +3,8 @@ package controller
 import (
 	"isme-go/app/dto"
 	"isme-go/app/service"
+	"isme-go/common/password"
 	"isme-go/framework/response"
-	"isme-go/utils/password"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

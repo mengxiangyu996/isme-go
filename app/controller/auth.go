@@ -4,10 +4,10 @@ import (
 	"isme-go/app/dto"
 	"isme-go/app/service"
 	"isme-go/app/token"
+	"isme-go/common/captcha"
+	"isme-go/common/password"
+	"isme-go/common/utils"
 	"isme-go/framework/response"
-	"isme-go/utils"
-	"isme-go/utils/captcha"
-	"isme-go/utils/password"
 	"strings"
 
 	"github.com/gin-gonic/gin"

@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-set APP=%cd%\isme-go.exe
+set APP=%cd%\main.exe
 
 :: 使用说明
 :menu
